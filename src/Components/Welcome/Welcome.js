@@ -14,7 +14,7 @@ const Welcome = () => {
           <Grid item xs={12} md={7} sx={{backgroundColor: 'white'}} borderRadius={3}>
             <Grid container  >
               <Grid item xs={12} md={6} sx={{display: 'flex', flexDirection: 'column', alignItems: 'start', justifyContent: 'center'}}>
-                 <h4 style={{margin: "0"}}>Hello {user ? user?.displayName : 'Guest'} </h4>
+                 <h4 style={{margin: "0"}}>Hello {user.displayName ? <q>{user?.displayName}</q> : <q>Guest</q>} </h4>
                  <p style={{margin: "0"}}>It's Good to see you again.</p>
               </Grid>
               <Grid item xs={12} md={6} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
