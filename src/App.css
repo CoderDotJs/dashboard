@@ -1,7 +1,39 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-color: #F3F6FD;
+}
+.recharts-wrapper{
+  margin: 0 !important;
+}
+.recharts-cartesian-axis-line{
+  display: none;
+}
+.recharts-cartesian-axis-tick-line{
+  display: none;
+}
+.recharts-cartesian-grid-vertical{
+  display: none;
+}
+.recharts-layer.recharts-cartesian-axis.recharts-xAxis.xAxis{
+  transform: translateY(8px);
+}
+.css-1u9df1b-MuiPaper-root-MuiAccordion-root:before{
+  content: "";
+  background-color: none !important;
+  display: none;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  border: none;
+}
+.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-MuiTypography-root{
+  font-weight: 500;
+}
+.MuiAccordionSummary-expandIconWrapper .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+  color: black;
+  font-size: 1rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
